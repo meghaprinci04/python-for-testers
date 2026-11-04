@@ -1,9 +1,7 @@
 account_balances = [15000, 5000, 20000, 8000, 12000]
-tc = [0]
-for tc in tc:
-  for balance in account_balances:
-    if balance >=10000:
-      print("TC", tc+1, "- Balance", balance, "- PASS")
+
+for tc, balance in enumerate(account_balances, start=1):
+    if balance >= 10000:
+        print("TC", tc, "- Balance", balance, "- PASS")
     else:
-      print("TC", tc+1, "- Balance", balance, "- FAIL")
-    tc= tc+1
+        print("TC", tc, "- Balance", balance, "- FAIL")
