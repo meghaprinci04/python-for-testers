@@ -1,53 +1,77 @@
-# Python for Testers 🐍
+# Python for IVR Testers – QA Automation Portfolio 🐍
 
-This repository contains my Python learning exercises and practical programs focused on software testing and test automation.
+## About This Repository
 
-## About This Project
+Welcome to my Python learning and QA automation portfolio.
 
-I am building Python programming skills to strengthen my experience in IVR testing and move towards Conversational AI and Voice AI testing.
+I am an IVR Tester with 7+ years of experience in functional testing, integration testing, automation, and performance testing.
 
-## Topics Covered
+This repository documents my journey of learning Python and applying programming concepts to real-world QA scenarios, particularly IVR and Conversational AI testing.
 
-- Python variables and data types
-- Conditional statements
-- Comparison operators
-- Loops and functions
-- Test automation fundamentals
+## Career Focus
 
-## Project Structure
+- IVR Testing
+- Voice AI Testing
+- Conversational AI Testing
+- Python-based Test Automation
+- Data-driven Testing
+- QA Automation Framework Development
 
-```text
-python-for-testers/
-│
-├── README.md
-│
-└── day-01-python-basics/
-    └── account_validation.py
-```
+## Technical Skills
 
-## Day 1 – Account Validation
+**Testing:** Manual Testing, Functional Testing, Integration Testing, Regression Testing, Performance Testing
 
-**Objective:** Validate a customer's account status and account balance.
+**IVR Platforms:** Genesys, Avaya, Amazon Connect
 
-**Test conditions:**
-- Account status must be ACTIVE.
-- Account balance must be at least ₹10,000.
+**Automation Tools:** CYARA, Cyara Cruncher, Cyara Velocity
 
-**Expected result:** Display PASS or FAIL for each validation.
+**Programming:** Python – Beginner / Currently Learning
 
-## Skills Practised
+**Python Concepts Practiced:**
+- Variables and Data Types
+- Conditional Statements
+- Loops and Functions
+- Lists and Dictionaries
+- String Operations
+- Exception Handling
+- File Handling
+- CSV Data Handling
+- Reusable Functions and Modules
+- Data-driven Test Automation
 
-- Python basics
-- If-else conditions
-- Nested conditions
-- Basic test validation logic
+## Learning Projects
 
-## Upcoming Work
+| Project | Description |
+|---|---|
+| Days 1–10 | Python fundamentals and IVR prompt validation |
+| Days 11–14 | Functions, data-driven testing and execution reporting |
+| Days 15–17 | Exception handling and file operations |
+| Day 18 | CSV test data handling |
+| Day 19 | Data-driven IVR PIN automation |
+| Day 20 | Python modules and reusable validation |
+| Day 22 | Mini IVR PIN Automation Project |
 
-- Multiple condition validation
-- Python loops
-- Functions
-- API testing
-- Conversational AI testing
+## Featured Project
 
-This repository will be updated as I progress through my Python and test automation learning journey.
+### Mini IVR PIN Validation Automation
+
+Developed a Python-based mini automation project featuring:
+
+- CSV-based test data
+- Reusable PIN validation function
+- Expected vs Actual result comparison
+- Exception handling
+- Automated PASS/FAIL reporting
+- Execution summary and pass percentage
+
+**Project Results:**
+- Total Test Cases: 6
+- Passed: 5
+- Failed: 1
+- Pass Percentage: 83.33%
+
+[View Mini IVR Automation Project](./mini-ivr-automation-project/)
+
+## Career Objective
+
+Continuously developing Python and automation skills to expand my expertise into AI Voice Testing, Conversational AI Testing, and advanced QA Automation.
